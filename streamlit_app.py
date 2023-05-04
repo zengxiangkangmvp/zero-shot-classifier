@@ -155,7 +155,7 @@ def main():
 
 if selected == "Demo (5 phrases max)":
 
-    API_KEY = st.secrets["API_KEY"]
+    API_KEY = st.secrets["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"]
 
     API_URL = (
         "https://api-inference.huggingface.co/models/valhalla/distilbart-mnli-12-3"
